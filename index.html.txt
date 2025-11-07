@@ -51,7 +51,7 @@
     </div>
 
     <div class="product">
-        <img src="" alt="Product 5">
+        <img src="https://github.com/SadatUtsha/SSU/blob/main/product5.jpg" alt="Product 5">
         <h3>Product 5</h3>
         <p>Price: ৳3000</p>
         <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
@@ -60,3 +60,4 @@
 
 </body>
 </html>
+
