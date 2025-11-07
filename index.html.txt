@@ -5,25 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Products</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        .product { display: inline-block; margin: 20px; border: 1px solid #ddd; padding: 10px; width: 250px; }
-        img { width: 100%; height: auto; }
-        a.button { display: inline-block; margin-top: 10px; padding: 10px 20px; background: green; color: white; text-decoration: none; border-radius: 5px; }
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; background: #f5f5f5; }
+        h1 { margin-bottom: 30px; }
+        .product { display: inline-block; margin: 20px; border: 1px solid #ddd; padding: 10px; width: 250px; background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+        img { width: 100%; height: auto; border-radius: 5px; }
+        h3 { margin: 10px 0 5px; }
+        p { margin: 5px 0; }
+        a.button { display: inline-block; margin: 5px; padding: 10px 15px; background: #25D366; color: white; text-decoration: none; border-radius: 5px; }
+        a.button.instagram { background: #E4405F; }
     </style>
 </head>
 <body>
     <h1>My Products</h1>
+
     <div class="product">
         <img src="https://via.placeholder.com/250" alt="Product 1">
         <h3>Product 1</h3>
         <p>Price: ৳1000</p>
         <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
+        <a class="button facebook" href="https://facebook.com/" target="_blank">Order via facebook</a>
     </div>
+
     <div class="product">
         <img src="https://via.placeholder.com/250" alt="Product 2">
         <h3>Product 2</h3>
         <p>Price: ৳1500</p>
-        <a class="button" href="https://facebook.com/Sadat Shahriar Utsha" target="_blank">Order via Facebook</a>
+        <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
+        <a class="button facebook" href="https://facebook.com/Sadat Shahriar Utsha" target="_blank">Order via facebook</a>
     </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>Price: ৳2000</p>
+        <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
+        <a class="button facebook href="https://facebook.com/Sadat Shahriar Utsha" target="_blank">Order via facebook</a>
+    </div>
+
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 4">
+        <h3>Product 4</h3>
+        <p>Price: ৳2500</p>
+        <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
+        <a class="button facebook" href="https://facebook.com/Sadat Shahriar Utsha" target="_blank">Order via facebook</a>
+    </div>
+
+    <div class="product">
+        <img src="" alt="Product 5">
+        <h3>Product 5</h3>
+        <p>Price: ৳3000</p>
+        <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
+        <a class="button facebook" href="https://facebook.com/Sadat Shahriar Utsha" target="_blank">Order via facebook</a>
+    </div>
+
 </body>
 </html>
