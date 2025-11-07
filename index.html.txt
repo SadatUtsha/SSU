@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Products</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .product { display: inline-block; margin: 20px; border: 1px solid #ddd; padding: 10px; width: 250px; }
+        img { width: 100%; height: auto; }
+        a.button { display: inline-block; margin-top: 10px; padding: 10px 20px; background: green; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>My Products</h1>
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>Price: ৳1000</p>
+        <a class="button" href="https://wa.me/8801906471776" target="_blank">Order via WhatsApp</a>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>Price: ৳1500</p>
+        <a class="button" href="https://facebook.com/Sadat Shahriar Utsha" target="_blank">Order via Facebook</a>
+    </div>
+</body>
+</html>
